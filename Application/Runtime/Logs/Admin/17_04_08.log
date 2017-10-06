@@ -1,0 +1,286 @@
+[ 2017-04-08T22:28:26+08:00 ] 127.0.0.1 /Article/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:1.7721s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0  [ RunTime:0.8631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.447028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.447028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004501s ]
+
+[ 2017-04-08T22:28:27+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:28:28+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:28:33+08:00 ] 127.0.0.1 /Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+SQL: SHOW COLUMNS FROM `zl_article_category` [ RunTime:0.1135s ]
+SQL: SELECT * FROM `zl_article_category` WHERE `disabled` = 0 AND `deleted` = 0  [ RunTime:0.0560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-08T22:29:47+08:00 ] 127.0.0.1 /Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article_category` [ RunTime:0.1045s ]
+SQL: SELECT * FROM `zl_article_category` WHERE `disabled` = 0 AND `deleted` = 0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-08T22:31:05+08:00 ] 127.0.0.1 /Article/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0  [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-04-08T22:31:05+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:31:06+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:31:10+08:00 ] 127.0.0.1 /Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article_category` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `zl_article_category` WHERE `disabled` = 0 AND `deleted` = 0  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-04-08T22:34:45+08:00 ] 127.0.0.1 /Article/addPost?content=%3Cp%3E%3Cspan+style%3D%22font-family%3A+%E6%A5%B7%E4%BD%93%2C%E6%A5%B7%E4%BD%93_GB2312%2CSimKai%3B+font-size%3A+24px%3B%22%3E%3Cstrong%3E%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%9B%B8%E4%BA%B2%3C%2Fstrong%3E%3C%2Fspan%3E%3C%2Fp%3E%3Cp%3E%3Cspan+style%3D%22font-family%3A+%E6%A5%B7%E4%BD%93%2C%E6%A5%B7%E4%BD%93_GB2312%2CSimKai%3B+font-size%3A+24px%3B%22%3E%3C%2Fspan%3E%3Cimg+src%3D%22%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170408%2F1491662066.png%22+title%3D%221491662066.png%22+alt%3D%222017-01-15_124824.png%22%2F%3E%3Cimg+src%3D%22http%3A%2F%2Fimg.baidu.com%2Fhi%2Fjx2%2Fj_0014.gif%22%2F%3E%3Cimg+src%3D%22%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170408%2F1491662066.png%22+title%3D%221491662066.png%22+alt%3D%222017-01-15_124824.png%22%2F%3E%3C%2Fp%3E&title=%E6%AF%94%E6%AD%BB%E4%BA%A1%E6%9B%B4%E5%8F%AF%E6%80%95%E7%9A%84%E4%BA%8B%EF%BC%8C%E6%98%AF%E5%BA%B8%E5%BA%B8%E7%A2%8C%E7%A2%8C%E7%9A%84%E4%BA%BA%E7%94%9F&author=%E5%BC%A0%E4%BA%AE&category_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0300s ]
+SQL: INSERT INTO `zl_article` (`category_id`,`title`,`content`,`author`,`created_time`) VALUES ('2','比死亡更可怕的事，是庸庸碌碌的人生','&lt;p&gt;&lt;span style=&quot;font-family: 楷体,楷体_GB2312,SimKai; font-size: 24px;&quot;&gt;&lt;strong&gt;中国式相亲&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: 楷体,楷体_GB2312,SimKai; font-size: 24px;&quot;&gt;&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170408/1491662066.png&quot; title=&quot;1491662066.png&quot; alt=&quot;2017-01-15_124824.png&quot;/&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0014.gif&quot;/&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170408/1491662066.png&quot; title=&quot;1491662066.png&quot; alt=&quot;2017-01-15_124824.png&quot;/&gt;&lt;/p&gt;','张亮','2017-04-08 22:34:44') [ RunTime:0.5500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-08T22:34:46+08:00 ] 127.0.0.1 /Article/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-04-08T22:34:47+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:34:49+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004501s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:51:30+08:00 ] 127.0.0.1 /Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `zl_article_category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article_category` WHERE `disabled` = 0 AND `deleted` = 0  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-04-08T22:52:51+08:00 ] 127.0.0.1 /Article/addPost?content=%3Ctable%3E%3Ctbody%3E%3Ctr+class%3D%22firstRow%22%3E%3Ctd+style%3D%22word-break%3A+break-all%3B%22+valign%3D%22top%22+width%3D%22136%22%3E%E5%94%90%E5%BD%B1%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+style%3D%22word-break%3A+break-all%3B%22+valign%3D%22top%22+width%3D%22136%22%3E%E5%94%90%E5%BD%B1%3C%2Ftd%3E%3Ctd+style%3D%22word-break%3A+break-all%3B%22+valign%3D%22top%22+width%3D%22136%22%3E%E5%94%90%E5%BD%B1%3C%2Ftd%3E%3Ctd+style%3D%22word-break%3A+break-all%3B%22+valign%3D%22top%22+width%3D%22136%22%3E%E5%94%90%E5%BD%B1%E5%94%90%E5%BD%B1%E5%94%90%E5%BD%B1%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+style%3D%22word-break%3A+break-all%3B%22+valign%3D%22top%22+width%3D%22136%22%3E%E5%BC%A0%E4%BA%AE%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+style%3D%22word-break%3A+break-all%3B%22+valign%3D%22top%22+width%3D%22136%22%3E%E6%B6%A8%E5%8A%BF%E9%9B%86%E5%9B%A2%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%3Cbr%2F%3E%3C%2Ftd%3E%3Ctd+valign%3D%22top%22+width%3D%22136%22%3E%E5%94%90%E5%BD%B1%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftbody%3E%3C%2Ftable%3E%3Cp%3E%3Cbr%2F%3E%3C%2Fp%3E&title=%E5%BC%A0%E5%9B%BD&author=%E5%BC%A0%E4%BA%AE&category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0275s ]
+SQL: INSERT INTO `zl_article` (`category_id`,`title`,`content`,`author`,`created_time`) VALUES ('4','张国','&lt;table&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;td style=&quot;word-break: break-all;&quot; valign=&quot;top&quot; width=&quot;136&quot;&gt;唐影&lt;br/&gt;&lt;/td&gt;&lt;td style=&quot;word-break: break-all;&quot; valign=&quot;top&quot; width=&quot;136&quot;&gt;唐影&lt;/td&gt;&lt;td style=&quot;word-break: break-all;&quot; valign=&quot;top&quot; width=&quot;136&quot;&gt;唐影&lt;/td&gt;&lt;td style=&quot;word-break: break-all;&quot; valign=&quot;top&quot; width=&quot;136&quot;&gt;唐影唐影唐影&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;word-break: break-all;&quot; valign=&quot;top&quot; width=&quot;136&quot;&gt;张亮&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;word-break: break-all;&quot; valign=&quot;top&quot; width=&quot;136&quot;&gt;涨势集团&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;&lt;br/&gt;&lt;/td&gt;&lt;td valign=&quot;top&quot; width=&quot;136&quot;&gt;唐影&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','张亮','2017-04-08 22:52:51') [ RunTime:0.0375s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-08T22:52:52+08:00 ] 127.0.0.1 /Article/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-04-08T22:52:54+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-04-08T22:52:56+08:00 ] 127.0.0.1 /Public/plugins/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021003s ]
+ERR: 无法加载控制器:Public
+

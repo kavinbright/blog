@@ -1,0 +1,25 @@
+[ 2017-05-06T11:06:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.1250s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.4130s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.535031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.535031s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.351135s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.351135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.121007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.121007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+

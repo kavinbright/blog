@@ -1,0 +1,1522 @@
+[ 2017-05-16T16:26:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.6690s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.1130s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.055003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.055003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.447025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.447025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.156009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.156009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.171010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.171010s ]
+
+[ 2017-05-16T16:42:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046003s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-05-16T16:47:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.059003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.059003s ]
+
+[ 2017-05-16T17:00:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-16T17:00:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.187011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.187011s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-05-16T17:02:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-05-16T17:04:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-05-16T17:06:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T17:06:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.064003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064003s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-05-16T17:07:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+
+[ 2017-05-16T17:08:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T17:08:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-16T17:15:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.2140s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-05-16T17:16:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-05-16T17:18:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T17:24:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T17:25:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.118006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-05-16T17:26:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-05-16T17:32:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2017-05-16T17:32:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-05-16T17:33:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0880s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T17:33:37+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.085005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-05-16T17:34:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-16T18:32:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-16T19:23:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.1110s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-05-16T19:24:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.235014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-16T19:24:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-16T19:26:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T19:28:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-05-16T19:29:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-16T19:30:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-05-16T19:38:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032002s ]
+
+[ 2017-05-16T19:38:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-05-16T19:39:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.1050s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030002s ]
+
+[ 2017-05-16T19:40:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-16T19:44:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.1850s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0860s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-05-16T19:45:08+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-05-16T19:45:09+08:00 ] 127.0.0.1 /index.php/Home/Article/Public/images/share_url.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-05-16T19:45:11+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-16T19:49:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-16T19:49:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048003s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-05-16T19:50:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.066004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.066004s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-05-16T19:50:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.092005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.092005s ]
+
+[ 2017-05-16T19:53:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-05-16T19:54:16+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024002s ]
+
+[ 2017-05-16T19:54:17+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/Public/images/share_url.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-16T19:54:18+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-16T19:55:33+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0580s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-05-16T19:56:58+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-05-16T19:59:02+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.200011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.204011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-16T19:59:30+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-05-16T20:00:33+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-05-16T20:01:02+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-05-16T20:01:44+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T21:27:50+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+ERR: 模板不存在:./Application/Home/View/DailyPie/yaowen.html
+
+[ 2017-05-16T21:28:14+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T21:28:47+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-05-16T21:29:17+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-16T21:47:58+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.052002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2017-05-16T21:48:22+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-16T21:49:18+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T21:51:47+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T21:52:22+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-16T21:53:05+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-16T21:54:12+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T21:54:51+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T21:55:20+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-05-16T21:55:23+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T22:00:55+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] Illegal string offset 'code' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 39 行.
+NOTIC: [2] Illegal string offset 'code' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 43 行.
+NOTIC: [2] Illegal string offset 'msg' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-16T22:03:29+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] Illegal string offset 'code' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 39 行.
+NOTIC: [2] Illegal string offset 'code' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 43 行.
+NOTIC: [2] Illegal string offset 'msg' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-16T22:04:59+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] Illegal string offset 'code' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 39 行.
+NOTIC: [2] Illegal string offset 'code' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 43 行.
+NOTIC: [2] Illegal string offset 'msg' E:\zliang\Application\Home\Controller\DailyPieController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-16T22:05:16+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+
+[ 2017-05-16T22:05:34+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+
+[ 2017-05-16T22:06:06+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+
+[ 2017-05-16T22:06:30+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+
+[ 2017-05-16T22:07:38+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+
+[ 2017-05-16T22:08:07+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 2 for http(), called in E:\zliang\Application\Home\Controller\DailyPieController.class.php on line 36 and defined E:\zliang\Application\Common\Common\function.php 第 136 行.
+NOTIC: [8] Undefined variable: params E:\zliang\Application\Common\Common\function.php 第 148 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given E:\zliang\Application\Common\Common\function.php 第 148 行.
+

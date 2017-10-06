@@ -1,0 +1,2481 @@
+[ 2017-06-10T15:41:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.116006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.5400s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0570s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.1020s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.240014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.240014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.336077s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.336077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.044002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028001s ]
+
+[ 2017-06-10T16:05:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:06:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:07:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:08:39+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =33 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T16:08:43+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T16:09:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:33:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T16:34:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:35:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T16:35:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T16:36:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:38:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-06-10T16:39:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:41:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T16:41:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T16:42:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T16:43:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T17:10:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T17:10:49+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =37 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T17:10:51+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T17:43:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id   [ RunTime:0.1225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T17:43:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T17:44:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T17:45:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T17:49:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T17:55:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0300s ]
+ERR: 1052:Column 'deleted' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time 
+ERR: 1052:Column 'deleted' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time 
+
+[ 2017-06-10T17:55:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0300s ]
+ERR: 1052:Column 'created_time' in order clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY created_time 
+ERR: 1052:Column 'created_time' in order clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY created_time 
+
+[ 2017-06-10T17:56:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0050s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:00:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.1000s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:00:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:05:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0000s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012500s ]
+
+[ 2017-06-10T18:06:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:07:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:10:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:26:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: category_id E:\zliang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined index: category_id E:\zliang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:26:20+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: articleList E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 131 行.
+NOTIC: [8] Undefined variable: type E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-06-10T18:26:22+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:26:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:27:05+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: articleList E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 131 行.
+NOTIC: [8] Undefined variable: type E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:27:07+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:27:52+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: articleList E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 131 行.
+NOTIC: [8] Undefined variable: type E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:27:55+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:28:30+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: articleList E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 131 行.
+NOTIC: [8] Undefined variable: type E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:28:33+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:28:53+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: articleList E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 131 行.
+NOTIC: [8] Undefined variable: type E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:28:55+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:30:09+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007500s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\zliang\Application\Home\Controller\ArticleController.class.php:28) E:\zliang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\zliang\Application\Home\Controller\ArticleController.class.php:28) E:\zliang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\zliang\Application\Home\Controller\ArticleController.class.php:28) E:\zliang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:30:34+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\zliang\Application\Common\Common\function.php 第 174 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:30:34+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:30:36+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:32:13+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:32:15+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:33:35+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:33:37+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:41:06+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:41:09+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:45:30+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0050s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:45:33+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:46:14+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:46:17+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:46:45+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '4' ORDER BY zl_article.created_time  [ RunTime:0.0000s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:46:48+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:47:08+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:47:12+08:00 ] 127.0.0.1 /index.php/Home/Article/list?category_id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 AND zl_article.category_id = '14' ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type_id E:\zliang\Application\Runtime\Cache\Home\ff8d2e9a08e5b8bee21d40e9b5c7e8b2.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:47:18+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =37 ) LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:47:18+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:47:23+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T18:47:25+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T18:54:42+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2017-06-10T18:55:03+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T18:55:08+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0025s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T21:55:51+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T21:56:04+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T21:56:09+08:00 ] 127.0.0.1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T21:56:49+08:00 ] 127.0.0.1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T21:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T21:57:35+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T21:57:49+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T22:01:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T22:01:04+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T22:01:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T22:01:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-10T22:06:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:10:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:10:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:16:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-10T22:19:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:22:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T22:31:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.1310s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0810s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T22:33:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T22:36:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:37:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:37:37+08:00 ] 127.0.0.1 /index.php/Home/Article/detail?article_id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T22:37:38+08:00 ] 127.0.0.1 /index.php/Home/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T22:38:10+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\zliang\Application\Common\Common\function.php 第 174 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:38:13+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T22:41:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T22:44:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T22:48:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.274015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.274015s ]
+
+[ 2017-06-10T22:52:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T22:58:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:13:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-10T23:13:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-06-10T23:13:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:16:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.416024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.416024s ]
+
+[ 2017-06-10T23:17:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0270s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:19:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:20:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0850s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:20:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T23:20:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-06-10T23:21:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:21:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-10T23:22:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:22:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:22:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 18 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T23:26:27+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:26:32+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T23:27:45+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T23:27:58+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T23:48:48+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-10T23:50:52+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.077004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-06-10T23:52:26+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:53:43+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-10T23:54:07+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:54:49+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-10T23:55:24+08:00 ] 127.0.0.1 /index.php/Home/DailyPie/yaowen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

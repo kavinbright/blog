@@ -1,0 +1,25 @@
+[ 2017-06-27T00:08:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.104006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.098006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.098006s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.1270s ]
+SQL: SELECT * FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  WHERE zl_article.deleted = 0 AND zl_article.disabled = 0 ORDER BY zl_article.created_time  [ RunTime:0.3690s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ArticleModel::totalArticelCategoryList(), called in E:\zliang\Application\Home\Controller\IndexController.class.php on line 23 and defined E:\zliang\Application\Common\Model\ArticleModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: categoryId E:\zliang\Application\Common\Model\ArticleModel.class.php 第 13 行.
+SQL: SELECT count(*) as article_num,zl_article_category.category_name,zl_article_category.category_id FROM `zl_article` left join zl_article_category on zl_article_category.category_id = zl_article.category_id  GROUP BY zl_article.category_id  [ RunTime:0.1270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.099006s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.099006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.930167s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.931167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.121007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.121007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.151008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.151008s ]
+
